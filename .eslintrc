@@ -1,0 +1,22 @@
+{
+    "root": true,
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+    },
+    "extends": [
+        "plugin:vue/vue3-essential",
+        "@vue/standard",
+        "@vue/typescript/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 2020
+    },
+    "rules": {
+        "@typescript-eslint/no-unused-vars": 0,
+        "@typescript-eslint/ban-ts-comment": 1,
+        "@typescript-eslint/no-explicit-any": 0,
+        "@typescript-eslint/ban-types": 0
+    }
+}
